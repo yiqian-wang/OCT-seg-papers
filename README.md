@@ -17,6 +17,11 @@ code: https://github.com/ai-med/relaynet_pytorch
 - 2018 (Google DeepMind) Clinically applicable deep learning for diagnosis and referral in retinal disease \
 https://rdcu.be/4sNU 
 
+- 2019 Fully Convolutional Boundary Regression for Retina OCT Segmentation \
+https://link.springer.com/chapter/10.1007/978-3-030-32239-7_14 \
+preprocessing code: https://github.com/heyufan1995/oct_preprocess \
+2D Unet, column wise softmax for boundary
+
 - 2020 (Google DeepMind) Predicting conversion to wet age-related macular degeneration using deep learning \
 https://rdcu.be/b4fgc 
 
