@@ -14,6 +14,9 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3785070/
 https://arxiv.org/abs/1704.02161 \
 code: https://github.com/ai-med/relaynet_pytorch
 
+- 2017 Automatic segmentation of nine retinal layer boundaries in OCT images of non-exudative AMD patients using deep learning and graph search \
+https://www.osapublishing.org/DirectPDFAccess/C104984E-97A7-91AD-422CBA1DAF54A23D_363511/boe-8-5-2732.pdf?da=1&id=363511&seq=0&mobile=no
+
 - 2018 (Google DeepMind) Clinically applicable deep learning for diagnosis and referral in retinal disease \
 https://rdcu.be/4sNU 
 
