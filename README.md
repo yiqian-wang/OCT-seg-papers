@@ -10,15 +10,9 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3785070/
 
 ## Deep Learning
 
-- 2017 ReLayNet: retinal layer and fluid segmentation of macular optical coherence tomography using fully convolutional networks \
-https://arxiv.org/abs/1704.02161 \
-code: https://github.com/ai-med/relaynet_pytorch
-
-- 2017 Automatic segmentation of nine retinal layer boundaries in OCT images of non-exudative AMD patients using deep learning and graph search \
-https://www.osapublishing.org/DirectPDFAccess/C104984E-97A7-91AD-422CBA1DAF54A23D_363511/boe-8-5-2732.pdf?da=1&id=363511&seq=0&mobile=no
-
-- 2018 (Google DeepMind) Clinically applicable deep learning for diagnosis and referral in retinal disease \
-https://rdcu.be/4sNU 
+- 2021 Deep learning based joint segmentation and characterization of multi-class retinal fluid lesions on OCT scans for clinical use in anti-VEGF therapy \
+https://doi.org/10.1016/j.compbiomed.2021.104727 \
+recurrent ASPP based deep encoder-decoder network, Dice loss function
 
 - 2019 Fully Convolutional Boundary Regression for Retina OCT Segmentation \
 https://link.springer.com/chapter/10.1007/978-3-030-32239-7_14 \
@@ -28,23 +22,50 @@ preprocessing code: https://github.com/heyufan1995/oct_preprocess \
 - 2020 (Google DeepMind) Predicting conversion to wet age-related macular degeneration using deep learning \
 https://rdcu.be/b4fgc 
 
-## Conventional
+- 2018 (Google DeepMind) Clinically applicable deep learning for diagnosis and referral in retinal disease \
+https://rdcu.be/4sNU 
+9 neighboring B-scans for central B-scan segmentation
 
-- 2014 Probabilistic intra-retinal layer segmentation in 3-D OCT images using global shape regularization \
-http://www.sciencedirect.com/science/article/pii/S1361841514000449. \
-code: https://github.com/FabianRathke/octSegmentation \
-2D and 3D, GR
+- 2017 ReLayNet: retinal layer and fluid segmentation of macular optical coherence tomography using fully convolutional networks \
+https://arxiv.org/abs/1704.02161 \
+code: https://github.com/ai-med/relaynet_pytorch
+
+- 2017 Automatic segmentation of nine retinal layer boundaries in OCT images of non-exudative AMD patients using deep learning and graph search \
+https://www.osapublishing.org/DirectPDFAccess/C104984E-97A7-91AD-422CBA1DAF54A23D_363511/boe-8-5-2732.pdf?da=1&id=363511&seq=0&mobile=no
+
+
+## Conventional
 
 - 2018 A Supervised Joint Multi-layer Segmentation Framework for Retinal Optical Coherence Tomography Images using Conditional Random Field \
 https://www.sciencedirect.com/science/article/pii/S0169260717314645 \
 code: https://github.com/arunava555/OCT-layer-segmentation \
 CRF, code in Matlab
 
+
 - Segmentation and analysis of retinal layers from individual OCT b-scans \
 code: https://github.com/sarastokes/OCT-tools 
 
+
+- 2014 Probabilistic intra-retinal layer segmentation in 3-D OCT images using global shape regularization \
+http://www.sciencedirect.com/science/article/pii/S1361841514000449 \
+code: https://github.com/FabianRathke/octSegmentation \
+(working version https://github.com/yiqian-wang/octSegmentation) \
+probabilistic graphical model, 9 boundaries, 2D and 3D
+
 ## Dataset
-- Diabetic macular edema dataset \
+
+- 2019 RETOUCH: the retinal OCT fluid detection and segmentation benchmark and challenge
+https://ieeexplore.ieee.org/document/8653407 \
+https://retouch.grand-challenge.org 
+
+- 2019 OCTID: Optical coherence tomography image database
+https://arxiv.org/ftp/arxiv/papers/1812/1812.07056.pdf \
+
+- 2018 Identifying medical diagnoses and treatable diseases by image-based deep learning
+https://www.sciencedirect.com/science/article/pii/S0092867418301545 \
+
+
+- 2014 Diabetic macular edema dataset \
 http://people.duke.edu/~sf59/Chiu_BOE_2014_dataset.htm \
 preprocessing code: https://github.com/heyufan1995/oct_preprocess
 
