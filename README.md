@@ -10,6 +10,11 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3785070/
 
 ## Deep Learning
 
+- 2021 (MGU-Net) Multi-scale GCN-assisted two-stage network for joint segmentation of retinal layers and discs in peripapillary OCT images \
+https://www.osapublishing.org/boe/fulltext.cfm?uri=boe-12-4-2204&id=449401 \
+code: https://github.com/Jiaxuan-Li/MGU-Net \
+dataset: http://www.yuyeling.com/project/mgu-net/
+
 - 2021 Deep learning based joint segmentation and characterization of multi-class retinal fluid lesions on OCT scans for clinical use in anti-VEGF therapy \
 https://doi.org/10.1016/j.compbiomed.2021.104727 \
 recurrent ASPP based deep encoder-decoder network, Dice loss function
@@ -34,6 +39,12 @@ code: https://github.com/ai-med/relaynet_pytorch
 https://www.osapublishing.org/DirectPDFAccess/C104984E-97A7-91AD-422CBA1DAF54A23D_363511/boe-8-5-2732.pdf?da=1&id=363511&seq=0&mobile=no
 
 
+- AI challenge Unet DME segmentation \
+https://github.com/ShawnBIT/AI-Challenger-Retinal-Edema-Segmentation
+
+
+- caffe code: https://github.com/SJD095/OCT-Segmentation
+
 ## Conventional
 
 - 2018 A Supervised Joint Multi-layer Segmentation Framework for Retinal Optical Coherence Tomography Images using Conditional Random Field \
@@ -53,6 +64,9 @@ code: https://github.com/FabianRathke/octSegmentation \
 probabilistic graphical model, 9 boundaries, 2D and 3D
 
 ## Dataset
+
+- 2021 (MGU-Net) Multi-scale GCN-assisted two-stage network for joint segmentation of retinal layers and discs in peripapillary OCT images \
+dataset: http://www.yuyeling.com/project/mgu-net/
 
 - 2019 RETOUCH: the retinal OCT fluid detection and segmentation benchmark and challenge
 https://ieeexplore.ieee.org/document/8653407 \
@@ -74,3 +88,14 @@ http://iacl.ece.jhu.edu/index.php?title=Resources
 
 - Retinal-OCT-Images \
 https://github.com/lidaboo/Retinal-OCT-Images
+
+## Other Resources
+
+- OCT converter \
+https://github.com/marksgraham/OCT-Converter
+
+- Heidelberg .vol Reader \
+https://github.com/ayl/heyexReader
+
+- LibOCTData \ 
+https://github.com/neurodial/LibOctData
