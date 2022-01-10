@@ -4,11 +4,14 @@ Personal paper/code/dataset list on OCT segmentation
 ## Background
 - 2018 Prevalences of segmentation errors and motion artifacts in OCT-angiography differ among retinal diseases \
 https://link.springer.com/article/10.1007/s00417-018-4053-2 
+Bscan +  xy coordinates input, pixel label + column wise softmax for boundary
 
 - 2013 A Review of Algorithms for Segmentation of Optical Coherence Tomography from Retina \
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3785070/
 
 ## Deep Learning
+- 2021 (He et al) Structured layer surface segmentation for retina OCT using fully convolutional regression networks \
+https://www.sciencedirect.com/science/article/pii/S1361841520302206 \
 
 - 2021 (MGU-Net) Multi-scale GCN-assisted two-stage network for joint segmentation of retinal layers and discs in peripapillary OCT images \
 https://www.osapublishing.org/boe/fulltext.cfm?uri=boe-12-4-2204&id=449401 \
@@ -18,8 +21,9 @@ dataset: http://www.yuyeling.com/project/mgu-net/
 - 2021 Deep learning based joint segmentation and characterization of multi-class retinal fluid lesions on OCT scans for clinical use in anti-VEGF therapy \
 https://doi.org/10.1016/j.compbiomed.2021.104727 \
 recurrent ASPP based deep encoder-decoder network, Dice loss function
+Fluid only, why 3 channel input?? 
 
-- 2019 Fully Convolutional Boundary Regression for Retina OCT Segmentation \
+- 2019 (He et al) Fully Convolutional Boundary Regression for Retina OCT Segmentation \
 https://link.springer.com/chapter/10.1007/978-3-030-32239-7_14 \
 preprocessing code: https://github.com/heyufan1995/oct_preprocess \
 2D Unet, column wise softmax for boundary
